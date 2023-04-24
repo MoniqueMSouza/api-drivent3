@@ -28,10 +28,6 @@ const server = supertest(app);
 
 
 
-function enrollmentAndTicketValidation(route: string) {
-
-}
-
 describe('GET /hotels', () => {
   
     it('should respond with status 401 if no token is given', async () => {
