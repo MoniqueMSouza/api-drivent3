@@ -54,7 +54,7 @@ async function ticketProcessPayment(ticketId: number) {
   });
 }
 
-export default {
+export const ticketsRepository = {
   findTicketTypes,
   findTicketByEnrollmentId,
   createTicket,
